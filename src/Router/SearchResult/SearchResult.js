@@ -41,7 +41,7 @@ const SearchResult = () => {
 
   const handleSearch = () => {
     history.push(
-      `/F2E-2021-trip/scenic-spot/search-result?${qs.stringify({
+      `/F2E-2021-bike/scenic-spot/search-result?${qs.stringify({
         searchCity,
         searchKeyword,
       })}`
