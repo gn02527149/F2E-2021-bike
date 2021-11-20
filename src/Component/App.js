@@ -11,6 +11,7 @@ import Homepage from "../Router/Homepage/index";
 import SearchResult from "../Router/SearchResult/index";
 import ViewDetail from "../Router/ViewDetail/index";
 // import ScrollToTop from "./ScrollToTop";
+import { Header } from "./Common/Header";
 
 // export const basename = process.env.isProd ? "/F2E-2021_trip" : "/";
 // console.log(basename);
@@ -20,6 +21,7 @@ const App = () => {
     <>
       <Router>
         {/* <ScrollToTop /> */}
+        <Header />
         <TopNavigation />
         <Switch>
           <Route exact path="/F2E-2021-bike/" component={Homepage} />

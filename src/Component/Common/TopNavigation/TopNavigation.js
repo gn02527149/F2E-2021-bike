@@ -12,17 +12,24 @@ const TopNavigation = () => {
   return (
     <div id="top-navigation">
       <div className="inner-container">
-        <div className="logoBox">
-          <div className="logo"></div>
-          <p>Travel Taiwan</p>
-        </div>
         <ul>
-          <Link className="select" to="/F2E-2021-bike/">首頁</Link>
-          <Link to={`/F2E-2021-bike/:searchKind/search-result`}>
-            景點導覽
+          <Link className="logo select" to="/F2E-2021-bike/">
+            <div className="logoBox">
+              <div className="logoImg"></div>
+              <p>Bike Fun！自行車旅遊網</p>
+            </div>
+          </Link>
+          <Link className="not-allowed" to={`/F2E-2021-bike/:searchKind/search-result`}>
+            最新消息
           </Link>
           <Link className="not-allowed" to="/">
-            觀光活動
+            探索路線
+          </Link>
+          <Link className="not-allowed" to="/">
+            尋找站點
+          </Link>
+          <Link className="not-allowed" to="/">
+            常見問題
           </Link>
         </ul>
       </div>
