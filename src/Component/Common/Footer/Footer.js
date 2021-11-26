@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="inner-container">
-        <span className="copyright">#The F2E 3rd Week01 Design_#Tracy | FE_#Ruby </span>
+        <span className="copyright">#The F2E 3rd Week02 Design_#Vum | FE_#Ruby </span>
       </div>
     </div>
   );

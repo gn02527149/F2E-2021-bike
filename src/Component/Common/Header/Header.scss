@@ -1,0 +1,38 @@
+.header-bg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  background: #fff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 650px;
+  background-image: url(../../../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .header-container{
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-Logo{
+      position: relative;
+      &::after{
+        content: "Bike Fun！自行車旅遊網";
+        position: absolute;
+        bottom: -5%;
+        right: -13%;
+        color: #fff;
+        font-family: PingFang TC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.15em;
+      }
+    }
+  }
+    
+}

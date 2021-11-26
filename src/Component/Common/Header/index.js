@@ -1,3 +1,3 @@
-import HeaderSearch from "./HeaderSearch";
+import Header from "./Header";
 
-export { HeaderSearch };
+export { Header };

@@ -6,7 +6,7 @@
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 50px;
-  background-color: #eeeeee;
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
 
@@ -201,7 +201,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../assets/images/unsplash_dQejX2ucPBs.png);
+  // background-image: url(../../assets/images/unsplash_dQejX2ucPBs.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -219,7 +219,7 @@
   }
   @media screen and (max-width: 1180px) {
     justify-content: space-around;
-    background-image: url(../../assets/images/a3675b9e223912e18843b68884ad1f39.jpeg);
+    // background-image: url(../../assets/images/a3675b9e223912e18843b68884ad1f39.jpeg);
     height: 200px;
     p{
       font-size: 19px;
